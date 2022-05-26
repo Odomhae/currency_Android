@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ExchangeCalculation</string>
+    <string name="korea">한국(KRW)</string>
+    <string name="japan">일본(JPY)</string>
+    <string name="philippines">필리핀(PHP)</string>
+
+    <string name="KRWUSD">KRW / USD</string>
+    <string name="JPYUSD">JPY / USD</string>
+    <string name="PHPUSD">PHP / USD</string>
+
+    <string name="result_kr">수취금액은 %,.2f KRW 입니다 </string>
+    <string name="result_jp">수취금액은 %,.2f JPY 입니다 </string>
+    <string name="result_ph">수취금액은 %,.2f PHP 입니다 </string>
+
+</resources>
