@@ -138,7 +138,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:imeOptions="actionDone"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         android:maxLength="6"
         android:layout_marginStart="15dp"
         app:layout_constraintStart_toEndOf="@+id/textView5"

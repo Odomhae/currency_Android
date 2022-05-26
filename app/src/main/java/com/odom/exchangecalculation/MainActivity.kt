@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
         et_inputMoney.setOnEditorActionListener { _, _, _ ->
             if(et_inputMoney.text.toString() != ""){
-                val inputMoney = et_inputMoney.text.toString().toInt()
+                val inputMoney = et_inputMoney.text.toString().toDouble()
                 calculate(inputMoney)
             }
 
@@ -104,7 +104,7 @@ class MainActivity : AppCompatActivity() {
         return JSONObject(data)
     }
 
-    private fun calculate(money : Int){
+    private fun calculate(money : Double){
 
         if(money < 0 || money > 10000){
             Toast.makeText(this, "송금액이 바르지 않습니다", Toast.LENGTH_SHORT).show()
